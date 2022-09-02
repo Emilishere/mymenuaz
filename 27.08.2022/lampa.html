@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Turn on the light" onclick="lamp1()">
+    <img id="lamp" src="./photos/99-999702_light-bulb-off-light-bulb-clip-art-hd.png" alt="">
+    
+    <input type="button" value="Turn off the light" onclick="lamp2()">
+    <input type="button" value="Hide the bulb" onclick="hide()">
+    <input type="button" value="show the bulb" onclick="show()">
+    <script> 
+        function lamp1(){
+            document.getElementById("lamp").src="./photos/8-85199_light-bulb-on-off-png-stock-light-bulb.jpg"
+        }
+        function lamp2(){
+            document.getElementById("lamp").src="./photos/99-999702_light-bulb-off-light-bulb-clip-art-hd.png"
+        }
+        function hide(){
+            document.getElementById("lamp").style.display="none"
+        }
+        function show(){
+            document.getElementById("lamp").style.display="inline-block"
+        }
+    </script>
+    
+</body>
+</html>

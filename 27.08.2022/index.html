@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <input type="text" name="" id="finput"><br>
+    <input type="text" name="" id="sinput"><br>
+    <input type="button" value="Hesabla" onclick="calculate()">
+
+    <p id="result"></p><br>
+    <p id="result2"></p><br>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <script>
+        function calculate() {
+            try {
+                let inputOne = document.getElementById("finput").value;
+                console.log(inputOne);
+                let inputSecond = document.getElementById("sinput").value;
+
+                if (isNaN(inputOne) || isNaN(inputSecond) || inputSecond == 0) {  // Matches +0, -0, NaN
+                    throw new Error('Invalid dividend ')
+                }
+
+                let result = parseInt(inputOne) / parseInt(inputSecond);
+                let sum = cem(inputOne, inputSecond);
+                let x = cixma(inputOne, inputSecond);
+                let y = vurma(inputOne, inputSecond);
+                document.getElementById("result").innerHTML = result;
+                document.getElementById("result2").innerHTML = sum;
+                document.getElementById("result3").innerHTML = x;
+                document.getElementById("result4").innerHTML = y;
+                document.getElementById("result4").innerHTML = hasil(inputOne, inputSecond);
+            } catch (error) {
+                document.getElementById("result").innerHTML = error.name;
+            }
+
+        }
+
+
+
+
+        function cem(number1, number2) {
+
+            let sum = parseInt(number1) + parseInt(number2);
+            return sum;
+        };
+        function cixma(num1, num2) {
+            let x = parseInt(num1) - parseInt(num2);
+            return x;
+        }
+        function vurma(number1, number2) {
+            let y = parseInt(number1) * parseInt(number2)
+            return y;
+        }
+        function vurma2(num1, num2, num3, num4, num5) {
+            let hasil = 1;
+            for (let m = 0; m < arguments.length; m++) {
+                hasil *= parseInt(arguments[m])
+                return hasil
+            };
+        }
+    </script>

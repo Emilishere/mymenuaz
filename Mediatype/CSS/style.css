@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: red;
+    }
+}
+
+section ul {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0% 0%;
+}
+section ul li{
+    margin: 10px
+}
+section{
+    height:35px;
+    width:100%;
+    background-color: black;
+}
+a.hover{
+    background-color: aqua;
+}

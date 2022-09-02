@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    height: 50px;
+}
+
+.logonlang {
+    display: flex;
+}
+
+.fheadersearch{
+    background-color: #fbfafa;
+    border: none;
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 40px;
+
+}
+.fheaderelement{
+    background-color: transparent;
+    border:none;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#language{
+    background-color:#fbfafa;
+    height: 30px;
+    width: 55px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding:6px;
+    margin-left:10px;
+    margin-top: 10px;
+    border: none;
+}
+.cabinet {
+    text-decoration: none;
+    color: orange;
+    margin-top:10px;
+}
+
+.firsth {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.secondh {
+    box-shadow: 0px -2px 5px -3px rgba(190, 190, 190, 0.503);
+    height: 50px;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elementsoffirstlist{
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.elements1 {
+    text-decoration: none;
+}
+
+.thirdh {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 137px;
+}
+#searching{
+    align-self: center;
+    border: none;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(241, 237, 136);
+}
+#country{
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+
+}
+#submitbutton{
+    border: none;
+    height: 40px;
+}
+
+.Map {
+    text-decoration: none;
+    color: orangered;
+    right: 0;
+    position: absolute;
+    top: 44px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.junglebeach {
+    height: 400px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.description {
+    color: gray;
+    font-size: 15px;
+    overflow: hidden;
+    width: 240px;
+}
+.leftabout{
+    float: left;
+    left: 0;
+    width: 70%;
+    height: 250px;
+    overflow: hidden;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+
+}
+.rightabout{
+    width: 30%;
+    float: right;
+    right:0;
+}
+.cafe2, .cafe3, .cafe4{
+    margin-left: 20px;
+}
+.readmore{
+    height:35px;
+    width:100px;
+    background-color: orangered;
+    color:aliceblue;
+    text-decoration: none;
+    
+}
+.picturestolinks1{
+    height: 80px;
+    margin-left: -5px;
+}
+.picturestolinks2{
+    height: 120px;
+    margin-top: -10px;
+}
+.picturestolinks3{
+    height: 120px;
+    margin-top: -50px;
+}
+.picturestolinks4{
+    height: 120px;
+    margin-top: -30px;
+    margin-left: 25px;
+}
+.allinone{
+    list-style-type: none;
+    display: flex;
+}
+
+.footerlogo{
+    height: 80px;
+
+}
+.footerlisted{
+    list-style-type: none;
+}
+
+.secondcolumn{
+    margin-left: 30px;
+}
+
+.thirdcolumn{
+    margin-left: 30px;
+}
+.fourthcolumn{
+    margin-left: 30px;
+}
+.footermenu{
+    color:black;
+    text-decoration: none;
+}
+.footermenu:hover{
+    text-decoration:underline;
+    color: purple
+}
+.thirdcolumnlink{
+    color:black;
+    text-decoration: none;
+}
+.thirdcolumnlink:hover{
+    text-decoration:underline;
+    color: purple
+}
+.adjuster{
+    margin: 0 150px;
+}
+.footer{
+    justify-content: space-around;
+}

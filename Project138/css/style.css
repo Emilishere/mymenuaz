@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    position: sticky;
+}
+.box2{
+    position: relative;
+    left: -264px;
+    top:0;
+}

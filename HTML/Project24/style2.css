@@ -1,0 +1,11 @@
+#lorem1{
+    text-decoration: underline;
+}
+
+#lorem4{
+    text-decoration: OVERLINE;
+}
+
+*{
+    border: 1px solid ;
+}

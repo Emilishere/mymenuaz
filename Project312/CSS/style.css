@@ -1,0 +1,23 @@
+.Main{
+    width: 70%;
+    height: 400px;
+    background-color: rgb(56, 139, 150);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Main::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+.item{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin: 5px;
+}
+p{
+    float:bottom;
+}

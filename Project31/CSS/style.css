@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100px;
+    width: 600px;
+    background-color: yellow;
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.box1,
+.box3 {
+    height: 80px;
+    width: 15%;
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: blue;
+
+}
+
+.box2 {
+    height: 80px;
+    width: 102px;
+    margin: 8px 20px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+}
+
+.box3 {
+    background-color: green;
+
+}

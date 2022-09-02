@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>HomePage-mymenu.az</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class="firsth">
+            <div class="logonlang">
+                <img class="logo" src="./photos/logo.png" alt="my_menu_logo">
+                <form>
+                    <select id="language" name="country">
+                        <option value="Az">AZ</option>
+                        <option value="En">EN</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="searchbar">
+                <form class="fheadersearch">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="fheaderelement" type="search" placeholder="Search for restaurant and cafe">
+                    <input type="submit" hidden />
+                </form>
+            </div>
+
+            <div class="cabinet">
+                <a class="cabinet" href="#">Personal cabinet <i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+
+        <div class="secondh">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Search</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Map</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="thirdh">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./photos/cafe1.jpg" class="d-block w-100" alt="first_cafe_photo">
+                            <form id="searching">
+                                <select id="country" name="country">
+                                    <option value="Baki">Baki</option>
+                                    <option value="Gence">Gence</option>
+                                    <option value="Mingecevir">Mingecevir</option>
+                                </select>
+                                <input type="search" id="searchingx" name="searching" placeholder="Search for the restaurant...">
+                                <input type="submit" value="enter" id="submitbutton">
+                            </form>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./photos/cafe2.jpg" class="d-block w-100" alt="...">
+                            <form id="searching">
+                                <select id="country" name="country">
+                                    <option value="Baki">Baki</option>
+                                    <option value="Gence">Gence</option>
+                                    <option value="Mingecevir">Mingecevir</option>
+                                </select>
+                                <input type="search" id="searchingx" name="searching" placeholder="Search for the restaurant...">
+                                <input type="submit" value="enter" id="submitbutton">
+                            </form>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./photos/cafe3.jpg" class="d-block w-100" alt="...">
+                            <form id="searching">
+                                <select id="country" name="country">
+                                    <option value="Baki">Baki</option>
+                                    <option value="Gence">Gence</option>
+                                    <option value="Mingecevir">Mingecevir</option>
+                                </select>
+                                <input type="search" id="searchingx" name="searching" placeholder="Search for the restaurant...">
+                                <input type="submit" value="enter" id="submitbutton">
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            
+            <form id="searching">
+                <select id="country" name="country">
+                    <option value="Baki">Baki</option>
+                    <option value="Gence">Gence</option>
+                    <option value="Mingecevir">Mingecevir</option>
+                </select>
+                <input type="search" id="searchingx" name="searching" placeholder="Search for the restaurant...">
+                <input type="submit" value="enter" id="submitbutton">
+            </form>
+        </div>
+    </header>
+    <main class="adjuster">
+        <div style="position:relative;">
+            <div>
+                <div>
+                    <h2>New restaurants</h2>
+                    <p>There are 119+ restaurants listed on Mymenu.az. <a style="color:orange; text-decoration: none;"
+                            href="#"><b>See All</b></a>
+                    </p>
+                    <a class="Map" href="#"><i class="fa-solid fa-map"></i>&nbsp; &nbsp; <span
+                            style="font-size:smaller"><b>Show on Map</b></span></a>
+                </div>
+                <div class="d-flex">
+                    <div class="card ms-2" style="width: 18rem;">
+                        <img src="./photos/asancafe.jpg" class="card-img-top" alt="asancafe">
+                        <div class="card-body">
+                            <h5 class="card-title">Asan Cafe</h5>
+                            <p class="card-text">Masalli Asan Hayat Complex., Masally</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./photos/junglebeach.jpeg" class="card-img-top" alt="junglebeach">
+                        <div class="card-body">
+                            <h5 class="card-title">Jungle Beach</h5>
+                            <p class="card-text">Khudat-Nabran highway, Khachmaz</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./photos/nohur cay.jpeg" class="card-img-top" alt="nohur cay">
+                        <div class="card-body">
+                            <h5 class="card-title">Nohur Cay</h5>
+                            <p class="card-text">59th km of Gabala-Ismayilli-Sheki highway, Qabala</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img style="margin-top:40px" src="./photos/line.png" alt="line">
+        <div>
+            <div>
+                <h2>New Blogs</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./photos/Dolma1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./photos/plov2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./photos/Qutabs3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <img style="margin-top:40px" src="./photos/line.png" alt="line">
+        <div style="display:flex" id="about">
+            <div>
+                <div class="leftabout">
+                    <h2>About Us</h2>
+                    <p>
+                        Azerbaijan has a rich and ancient cuisine. Sometimes the taste of the dishes is varied by
+                        region.
+                        Hence, local and international travelers wish to taste different dishes in the regions.
+                        According to
+                        conducted surveys, local and international travelers are struggled to find information about
+                        public
+                        catering facilities and using those services in the regions. The State Tourism Agency launches
+                        the
+                        project "Mymenu.az" to eliminate difficulties and increase the satisfaction of travelers.
+                        <br>
+                        <br>
+                        Information about catering facilities and services are available on the "Mymenu.az" in 2
+                        different
+                        languages. In addition to providing accurate information to travelers, the platform is
+                        functioned to
+                        improve the service quality of restaurants and other catering facilities.
+
+                        Purpose
+                        The purpose of the project is to improve the quality of public catering facilities in the
+                        regions,
+                        to adapt catering facilities to standards, to ensure the proper customer services, and to
+                        provide
+                        standard menus.
+
+
+
+                        Project directions
+                        Main activities:
+
+                        1. Adaptation of catering facilities` menus to standards;
+
+                        2. Provision of menus in Azerbaijani, Russian and English;
+
+                        3. Ensuring online accessibility of menus to travelers through "QR" code technology;
+
+                        4. Elimination of dual menu cases in public catering facilities;
+
+                        5. Providing expert support to improve the quality of catering services;
+
+                        6. Conducting training to improve service quality;
+
+                        7. Providing information to local and international travelers about restaurants and catering
+                        services in the regions;
+
+                        8. Ensuring easily to find the location of catering facilities;
+
+                        9. Publishing different articles regarding Azerbaijani cuisine and etc.
+
+                        Information for restaurant owners
+                        Any catering facilities operating in Azerbaijan (restaurants, coffee shops, and teahouses, bars
+                        and
+                        pubs, entertainment centers and clubs, baths, spas, sports and entertainment centers, etc.) can
+                        become members of the “Mymenu.az” platform.
+
+                        Project membership:
+                        Entrepreneurs or managers of public catering establishments wishing to participate in the
+                        project
+                        can become members by creating a personal account on the “Mymenu.az” platform. By registering on
+                        the
+                        platform, entrepreneurs/managers can create menus and add information about their restaurants,
+                        cafes, coffee shops, etc. in different designs and publish it on the platform. Registration is
+                        done
+                        by the phone number of entrepreneurs/managers.
+
+                        Advantages of participating in the project:
+                        • Introduce and promote your restaurant to local and international travelers,
+
+                        • Direct and free use of customizing menu templates in a modern style,
+
+                        • Change menus and use customize templates whenever you want,
+
+                        • Introducing menus with QR code technology.
+                    </p>
+                </div>
+
+                <a class="readmore" href="#">Read more</a>
+            </div>
+
+            <div class="rightabout" style="margin-left:40px">
+                <h2>References</h2>
+                <ul class="allinone">
+                    <li><a href="#"><img class="picturestolinks1" src="./photos/link1.png" alt="first_link"></a></li>
+                    <li><a href="#"><img class="picturestolinks2" src="./photos/link2.png" alt="second_link"></a></li>
+                </ul>
+                <ul class="allinone">
+                    <li><a href="#"><img class="picturestolinks3" src="./photos/link3.png" alt="third_link"></a></li>
+                    <li><a href="#"><img class="picturestolinks4" src="./photos/link4.png" alt="fourth_link"></a></li>
+                </ul>
+            </div>
+        </div>
+        <img style="margin-top:40px" src="./photos/line.png" alt="line">
+    </main>
+    <footer class="footer adjuster">
+        <div style="display:flex; justify-content: space-between;">
+            <div class="firstcolumn">
+                <img class="footerlogo" src="./photos/logo.png" alt="my_menu_logo">
+                <br>
+                <span>All rights reserved © 2022</span>
+                <br>
+                <br>
+                <span>Designed & Developed by<br>Triton Consulting MMC &<br>Crocusoft MMC</span>
+            </div>
+
+            <div class="secondcolumn">
+                <p>Mymenu.az</p>
+                <a class="footermenu fmenu1" href="#">Home Page</a>
+                <br>
+                <a class="footermenu fmenu2" href="#">Search</a>
+                <br>
+                <a class="footermenu fmenu3" href="#">Map</a>
+                <br>
+                <a class="footermenu fmenu4" href="#">About</a>
+                <br>
+                <a class="footermenu fmenu5" href="#">Contact</a>
+                <br>
+                <a class="footermenu fmenu6" href="#">Privacy Policy</a>
+            </div>
+
+            <div class="thirdcolumn">
+                <p>Mymenu.az</p>
+                <a class="thirdcolumnlink" href="#">Dövlət Turizm Agentliyi</a>
+            </div>
+            <div class="fourthcolumn">
+                <p>Social Media</p>
+                <a href="https://www.facebook.com/mymenuaz/"><i class="fa-brands fa-facebook"></i></a>
+                &nbsp;
+                <a href="https://www.instagram.com/mymenu.az/?igshid=lpupejumkbjt" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                &nbsp;
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                &nbsp;
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

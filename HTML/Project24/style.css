@@ -1,0 +1,25 @@
+h3{
+    color:coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3,p{
+    text-align: center;
+}
+#lorem3{
+    text-align:justify;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.metin{
+    background: rgb(246, 158, 91)
+}
+p.metin{
+    text-align: center;
+}
+
+.metin:hover{
+background-color: blue;
+border-radius: 100000px;
+transition: 0.7s;
+}
